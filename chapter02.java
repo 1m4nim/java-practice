@@ -46,13 +46,13 @@
 //     }
 // }
 
-public class chapter02{
-    public static void main(String[]args){
-        System.out.println("名前を教えて");
-        String name= new java.util.Scanner(System.in).nextLine();
-        System.out.println("年齢は？");
-        int age=new java.util.Scanner(System.in).nextInt();
-        System.out.println("name:"+name);
-        System.out.println("age:"+age);
-    }
-}
+// public class chapter02{
+//     public static void main(String[]args){
+//         System.out.println("名前を教えて");
+//         String name= new java.util.Scanner(System.in).nextLine();
+//         System.out.println("年齢は？");
+//         int age=new java.util.Scanner(System.in).nextInt();
+//         System.out.println("name:"+name);
+//         System.out.println("age:"+age);
+//     }
+// }
