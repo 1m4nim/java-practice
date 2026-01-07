@@ -22,11 +22,19 @@
 //     }
 // }
 
+// public class chapter02{
+//     public static void main(String[]args){
+//         int a=5;
+//         int b=6;
+//         int m=Math.min(a,b);//maxでも行ける
+//         System.out.println(m);
+//     }
+// }
+
 public class chapter02{
     public static void main(String[]args){
-        int a=5;
-        int b=6;
-        int m=Math.min(a,b);//maxでも行ける
-        System.out.println(m);
+        String age="24";
+        int n=Integer.parseInt(age);
+        System.out.println("私は今年で"+(n+1)+"歳になるよ");
     }
 }
