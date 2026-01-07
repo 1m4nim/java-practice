@@ -31,10 +31,17 @@
 //     }
 // }
 
+// public class chapter02{
+//     public static void main(String[]args){
+//         String age="24";
+//         int n=Integer.parseInt(age);
+//         System.out.println("私は今年で"+(n+1)+"歳になるよ");
+//     }
+// }
+
 public class chapter02{
     public static void main(String[]args){
-        String age="24";
-        int n=Integer.parseInt(age);
-        System.out.println("私は今年で"+(n+1)+"歳になるよ");
+        int r = new java.util.Random().nextInt(7);
+        System.out.println("サイコロの目："+r);
     }
 }
