@@ -36,23 +36,31 @@
 //     }
 // }
 
+// public class chapter03{
+//     public static void main(String[]args){
+//         System.out.println("サイコロ");
+//         int dice=new java.util.Random().nextInt(6)+1;
+//         switch (dice){
+//             case 1:
+//             case 2:
+//                 System.out.println("Happy");
+//                 break;
+//             case 3:
+//             case 4:
+//                 System.out.println("フツー");
+//                 break;
+//             case 5:
+//             case 6:
+//                 System.out.println("bad");
+//                 break;
+//         }
+//     }
+// }
+
 public class chapter03{
     public static void main(String[]args){
-        System.out.println("サイコロ");
-        int dice=new java.util.Random().nextInt(6)+1;
-        switch (dice){
-            case 1:
-            case 2:
-                System.out.println("Happy");
-                break;
-            case 3:
-            case 4:
-                System.out.println("フツー");
-                break;
-            case 5:
-            case 6:
-                System.out.println("bad");
-                break;
+        for(int i=0;i<10; i++){
+            System.out.println("Hello");
         }
     }
 }
