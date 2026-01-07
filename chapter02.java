@@ -14,10 +14,19 @@
 //     }
 // }
 
+// public class chapter02{
+//     public static void main(String[]args){
+//         String name="1m4nim";
+//         System.out.print("I'm ");//printlnとは異なり改行しない
+//         System.out.print(name);
+//     }
+// }
+
 public class chapter02{
     public static void main(String[]args){
-        String name="1m4nim";
-        System.out.print("I'm ");//printlnとは異なり改行しない
-        System.out.print(name);
+        int a=5;
+        int b=6;
+        int m=Math.min(a,b);//maxでも行ける
+        System.out.println(m);
     }
 }
