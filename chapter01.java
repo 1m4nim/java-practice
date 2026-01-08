@@ -5,7 +5,7 @@
 //     }
 // }
 
-public class chapter0{
+public class chapter01{
     public static void main(String[]args){
         System.out.println("1m4nim");
         System.out.println("25歳です");
