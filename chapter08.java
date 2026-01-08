@@ -1,4 +1,4 @@
-public class chapter08_ {
+public class chapter08 {
     public static void main(String[] args) {
         Person p = new Person();
         p.name = "1m4nim";
