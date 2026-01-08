@@ -32,14 +32,24 @@
 //     }
 // }
 
-public class chapter05 {
+// public class chapter05 {
+//     public static int add(int x,int y){
+//         int ans=x+y;
+//         return ans;
+//     }
+
+//     public static void main(String[] args) {
+//         int ans = add(100, 30);
+//         System.out.println(ans);
+//     }
+// }
+
+public class chapter05{
     public static int add(int x,int y){
         int ans=x+y;
         return ans;
     }
-
-    public static void main(String[] args) {
-        int ans = add(100, 30);
-        System.out.println(ans);
+    public static void main(String[]args){
+        System.out.println(add(add(10,20),add(30,40)));
     }
 }
