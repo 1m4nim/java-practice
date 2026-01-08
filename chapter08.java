@@ -9,11 +9,11 @@ public class chapter08 {
         p.sit(25);
         p.run();
 
-        Matango m1 = new Matango();
+        Fungi m1 = new Fungi();
         m1.hp = 50;
         m1.suffix = 'A';
 
-        Matango m2 = new Matango();
+        Fungi m2 = new Fungi();
         m2.hp = 40;
         m2.suffix = 'B';
 

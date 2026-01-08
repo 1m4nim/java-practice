@@ -1,4 +1,4 @@
-public class Matango {
+public class Fungi {
     int hp;
     final int LEVEL = 10;
     char suffix;
