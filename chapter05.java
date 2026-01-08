@@ -4,6 +4,6 @@ public class chapter05 {
     }
 
     public static void hello() {
-        System.out.println("Hello");
+        System.out.println("Hello!");
     }
 }
