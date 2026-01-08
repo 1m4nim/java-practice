@@ -72,7 +72,7 @@ public class chapter03{
                 System.out.print(i*j);
                 System.out.print(" ");
             }
-            System.out.println("");
+            System.out.println(" ");
         }
     }
 }
